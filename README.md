@@ -19,19 +19,6 @@ Bugs · Security · Best Practices · Refactored Code · Streamed live.
 
 ---
 
-## 📸 Screenshots
-
-| Home & API Setup | Review Button & Quick Prompts |
-|---|---|
-| ![Home](https://raw.githubusercontent.com/Akshay291/Code_Review_Bot/main/screenshots/home.png) | ![Review](https://raw.githubusercontent.com/Akshay291/Code_Review_Bot/main/screenshots/review.png) |
-
-| Live Streamed Review | Learning Resources |
-|---|---|
-| ![Summary](https://raw.githubusercontent.com/Akshay291/Code_Review_Bot/main/screenshots/summary.png) | ![Resources](https://raw.githubusercontent.com/Akshay291/Code_Review_Bot/main/screenshots/resources.png) |
-
-> 💡 **To add screenshots:** create a `screenshots/` folder in your repo and upload 4 images named `home.png`, `review.png`, `summary.png`, `resources.png`
-
----
 
 ## 🧠 What It Does
 
