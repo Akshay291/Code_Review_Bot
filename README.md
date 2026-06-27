@@ -19,27 +19,6 @@ Bugs · Security · Best Practices · Refactored Code · Streamed live.
 
 ---
 
-<div align="center">
-
-# 🔍 AI Code Review Assistant
-
-**Resume Project #3 · Akshay Kiran Rajput · GenAI Developer Portfolio**
-
-Paste code → get a senior engineer's review in seconds.
-Bugs · Security · Best Practices · Refactored Code · Streamed live.
-
-[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io)
-[![LangChain](https://img.shields.io/badge/LangChain-0.3+-1C3C3C?style=flat-square)](https://langchain.com)
-[![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3_70B-F55036?style=flat-square)](https://groq.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-
-### 🚀 [Live Demo → code-review-bot.streamlit.app](https://code-review-bot.streamlit.app/)
-
-</div>
-
----
-
 ## 📸 Application Screenshots
 
 Experience the complete workflow of the **AI Code Review Assistant**—from securely connecting a Groq API key to receiving a detailed AI-powered code review with streaming responses and conversation memory.
