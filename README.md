@@ -19,6 +19,84 @@ Bugs · Security · Best Practices · Refactored Code · Streamed live.
 
 ---
 
+## 📸 Application Screenshots
+
+Experience the complete workflow of the AI Code Review Assistant—from connecting your API key to receiving an AI-powered review with conversation memory.
+
+### 🏠 Home Screen
+
+<p align="center">
+<img src="screenshots/home.png" width="100%">
+</p>
+
+Paste code, choose a programming language, select a review mode, and securely connect your Groq API key.
+
+---
+
+### ⚡ Review & Follow-up Prompts
+
+<p align="center">
+<img src="screenshots/review.png" width="100%">
+</p>
+
+Generate an AI review and continue the conversation using one-click follow-up questions such as time complexity, unit testing, design patterns, and performance improvements.
+
+---
+
+### 🔍 AI Code Review Summary
+
+<p align="center">
+<img src="screenshots/summary.png" width="100%">
+</p>
+
+Receive a structured senior-engineer style review covering code quality, bugs, security, performance, best practices, and improvement suggestions.
+
+---
+
+### 📚 Improved Code & Learning Resources
+
+<p align="center">
+<img src="screenshots/resources.png" width="100%">
+</p>
+
+The assistant generates refactored code together with explanations and learning resources to help developers understand every recommendation.
+
+---
+
+### ☁️ Streamlit Cloud Deployment
+
+<p align="center">
+<img src="screenshots/deploy-home.png" width="100%">
+</p>
+
+The project is deployed on Streamlit Cloud and can be accessed from any browser without local installation.
+
+---
+
+### 💬 Review History
+
+<p align="center">
+<img src="screenshots/deploy-history.png" width="100%">
+</p>
+
+Conversation history is preserved using LangChain message memory, allowing developers to ask follow-up questions without losing context.
+
+> **Screenshot folder structure**
+
+```text
+Code_Review_Bot/
+│
+├── screenshots/
+│   ├── home.png
+│   ├── review.png
+│   ├── summary.png
+│   ├── resources.png
+│   ├── deploy-home.png
+│   └── deploy-history.png
+│
+└── README.md
+```
+
 
 ## 🧠 What It Does
 
