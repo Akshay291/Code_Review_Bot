@@ -4,7 +4,7 @@
 
 **Resume Project #3 · Akshay Kiran Rajput · GenAI Developer Portfolio**
 
-Paste code → get a senior engineer's review in seconds.
+Paste code → get a senior engineer's review in seconds.  
 Bugs · Security · Best Practices · Refactored Code · Streamed live.
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
@@ -13,7 +13,7 @@ Bugs · Security · Best Practices · Refactored Code · Streamed live.
 [![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3_70B-F55036?style=flat-square)](https://groq.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-🚀 **[Live Demo →](YOUR_STREAMLIT_URL_HERE)**
+### 🚀 [Live Demo → code-review-bot.streamlit.app](https://code-review-bot.streamlit.app/)
 
 </div>
 
@@ -21,7 +21,15 @@ Bugs · Security · Best Practices · Refactored Code · Streamed live.
 
 ## 📸 Screenshots
 
-> _Add a screenshot of your running app here after deployment_
+| Home & API Setup | Review Button & Quick Prompts |
+|---|---|
+| ![Home](https://raw.githubusercontent.com/Akshay291/Code_Review_Bot/main/screenshots/home.png) | ![Review](https://raw.githubusercontent.com/Akshay291/Code_Review_Bot/main/screenshots/review.png) |
+
+| Live Streamed Review | Learning Resources |
+|---|---|
+| ![Summary](https://raw.githubusercontent.com/Akshay291/Code_Review_Bot/main/screenshots/summary.png) | ![Resources](https://raw.githubusercontent.com/Akshay291/Code_Review_Bot/main/screenshots/resources.png) |
+
+> 💡 **To add screenshots:** create a `screenshots/` folder in your repo and upload 4 images named `home.png`, `review.png`, `summary.png`, `resources.png`
 
 ---
 
@@ -30,10 +38,11 @@ Bugs · Security · Best Practices · Refactored Code · Streamed live.
 Upload any code snippet and this tool acts as a **senior engineer reviewing your pull request** — streaming a structured, detailed review back to you in real time. Ask follow-up questions and it remembers the full conversation context.
 
 Built to demonstrate:
-- Real-world **LangChain** chain composition with memory
+- Real-world **LangChain** chain composition with conversation memory
 - **Groq API** integration with token-by-token streaming
+- **Real API key validation** — live test call rejects fake keys instantly
 - Multi-turn **conversational AI** in a production-style Streamlit UI
-- Clean, modular Python project structure ready for deployment
+- Clean, modular Python project structure deployed on Streamlit Cloud
 
 ---
 
@@ -43,7 +52,7 @@ Built to demonstrate:
 |---|---|
 | 🎯 **5 Review Modes** | Full Review · Bug Hunt · Security Audit · Performance · Beginner Friendly |
 | 🌐 **16 Languages** | Python · JavaScript · TypeScript · Java · Go · Rust · SQL · C++ · Bash · and more |
-| ⚡ **Streaming Responses** | Token-by-token output via Groq's LPU — faster than any GPU inference |
+| ⚡ **Streaming Responses** | Token-by-token output via Groq's LPU — faster than GPU inference |
 | 🧠 **Conversation Memory** | LangChain `MessagesPlaceholder` keeps last 20 messages in context |
 | 🔑 **Real API Key Validation** | Live test call on key entry — rejects fake/invalid keys instantly |
 | 💬 **Quick Follow-up Prompts** | One-click: time complexity · unit tests · design patterns · error handling |
@@ -66,7 +75,7 @@ Built to demonstrate:
 │                                                             │
 │   ChatPromptTemplate                                        │
 │   ├── SystemMessage  →  Senior Engineer persona             │
-│   ├── MessagesPlaceholder  →  last 20 messages (memory)    │
+│   ├── MessagesPlaceholder  →  last 20 messages (memory)     │
 │   └── HumanMessage  →  code + language + review mode       │
 │                      │                                      │
 │                      ▼                                      │
@@ -88,7 +97,7 @@ Built to demonstrate:
 ## 📁 Project Structure
 
 ```
-code_review_bot/
+Code_Review_Bot/
 │
 ├── app.py            ← Streamlit UI — sidebar, chat, streaming renderer
 ├── llm_engine.py     ← LangChain chain · API key validation · streaming
@@ -108,8 +117,8 @@ code_review_bot/
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/code-review-assistant.git
-cd code-review-assistant
+git clone https://github.com/Akshay291/Code_Review_Bot.git
+cd Code_Review_Bot
 ```
 
 ### 2. Install dependencies
@@ -120,7 +129,7 @@ pip install -r requirements.txt
 
 ### 3. Get a free Groq API key
 
-Go to **[console.groq.com/keys](https://console.groq.com/keys)** → Sign up → Create API Key
+Go to **[console.groq.com/keys](https://console.groq.com/keys)** → Sign up → Create API Key  
 No credit card needed. Free tier: **30 req/min · 14,400 req/day**
 
 ### 4. Add key to `.env`
@@ -155,7 +164,7 @@ Open **http://localhost:8501** in your browser.
    ```toml
    GROQ_API_KEY = "gsk_your_key_here"
    ```
-5. Copy the live URL → paste into your resume + LinkedIn
+5. Your live URL: **[code-review-bot.streamlit.app](https://code-review-bot.streamlit.app/)**
 
 ---
 
@@ -199,8 +208,6 @@ Open **http://localhost:8501** in your browser.
 
 ## ✍️ Resume Bullets
 
-Copy-paste ready for your CV or LinkedIn:
-
 ```
 • Built an AI Code Review chatbot using LangChain + Groq API (LLaMA 3.3 70B)
   with real-time token-by-token streaming and multi-turn conversation memory
@@ -219,12 +226,13 @@ Copy-paste ready for your CV or LinkedIn:
 
 ## 👤 Author
 
-**Akshay Kiran Rajput**
+**Akshay Kiran Rajput**  
 MCA Student · Jain Online University · Surat, India
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/YOUR_PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/YOUR_USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Akshay_Rajput-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/akshay-rajput-0925b8264)
+[![GitHub](https://img.shields.io/badge/GitHub-Akshay291-181717?style=flat-square&logo=github)](https://github.com/Akshay291)
 [![Email](https://img.shields.io/badge/Email-akshayrajput2914@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:akshayrajput2914@gmail.com)
+[![Live App](https://img.shields.io/badge/Live_App-code--review--bot.streamlit.app-FF4B4B?style=flat-square&logo=streamlit)](https://code-review-bot.streamlit.app/)
 
 ---
 
