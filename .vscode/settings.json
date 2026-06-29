@@ -1,3 +1,10 @@
 {
-  "cSpell.words": ["glassmorphism", "Groq", "Kiran", "pycache"]
+  "cSpell.words": [
+    "dotenv",
+    "glassmorphism",
+    "Groq",
+    "Kiran",
+    "langchain",
+    "pycache"
+  ]
 }
