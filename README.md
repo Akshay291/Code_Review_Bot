@@ -14,7 +14,7 @@
 [![Live App](https://img.shields.io/badge/🚀_Live_App-codesense.streamlit.app-FF4B4B?style=flat-square)](YOUR_STREAMLIT_URL_HERE)
 [![License](https://img.shields.io/badge/License-MIT-22C55E?style=flat-square)](LICENSE)
 
-### 🚀 [Live Demo → your-app.streamlit.app](YOUR_STREAMLIT_URL_HERE)
+### 🚀 [Live Demo → your-app.streamlit.app](https://code-review-bot.streamlit.app/)
 
 **3 Free LLMs · 8 Review Modes · 22 Languages · File Upload · Conversation Memory · Streamed**
 
